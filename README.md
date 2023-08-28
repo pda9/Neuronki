@@ -6,6 +6,6 @@
 5. Вылезет меню установки дополнительных библиотек. Нажимаем Apply. Ждём окончания установки (все нужные библиотеки по типу numpy и keras будут установлены)
 6. Запускаем Pycharm и создаём новый проект
 7. Выбираем пункт Previously configured interpreter и нажимаем Add interpreter. Выбираем Add local interpreter ![image](https://github.com/pda9/Neuronki/assets/39908010/f1a56a3d-4ede-43c2-ba4e-94ecbe84ed03)
-8. Выбиhаем пункт Conda Environment, нажимаем Use existing environment. Выбираем окружение, которое создали и нажимаем Ok ![image](https://github.com/pda9/Neuronki/assets/39908010/01b8e480-20b8-4e7a-aeac-e1041fbab39b)
+8. Выбираем пункт Conda Environment, нажимаем Use existing environment. Выбираем окружение, которое создали и нажимаем Ok ![image](https://github.com/pda9/Neuronki/assets/39908010/01b8e480-20b8-4e7a-aeac-e1041fbab39b)
 9. Нажимаем Create
 10. Готово! Можно приступат к работе
