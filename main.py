@@ -33,6 +33,10 @@ model.compile(loss="categorical_crossentropy", optimizer="SGD", metrics=["accura
 print(model.summary())
 
 model.fit(x_train,y_train,batch_size=200,epochs=100,verbose=1)
+# Сохранение обученной нейросети
+model.save('fashion_mnist.h5')
+# Сохранение весов
+model.save_weights('fashion_mnist_weights.h5')
 score = model.evaluate(x_test,y_test,verbose=1)
 print("Точность работы на тестовых данных: %.2f%%" % (score[1]*100))
 predictions = model.predict(x_train)
